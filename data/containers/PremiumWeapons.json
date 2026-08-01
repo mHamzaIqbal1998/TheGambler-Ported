@@ -1,0 +1,9 @@
+{
+  "parent": "weapon",
+  "is_preset": true,
+  "price_generate": true,
+  "calculate_preset_prices": false,
+  "rarities": [
+    "_meta"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "money",
+  "rarities": [
+    "_success",
+    "_failure"
+  ],
+  "stackable": [
+    true,
+    false
+  ],
+  "reward_amount": [
+    5000000,
+    1
+  ],
+  "rewards": [
+    [
+      "5449016a4bdc2d6f028b456f"
+    ],
+    [
+      "57347d7224597744596b4e72"
+    ]
+  ]
+}

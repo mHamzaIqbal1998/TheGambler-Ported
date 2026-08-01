@@ -1,0 +1,13 @@
+# Legacy TypeScript build output
+*.js
+*.js.map
+
+# .NET build output
+bin/
+obj/
+*.user
+
+# Generated (produced by tools/convert-*.mjs from the legacy TS data)
+# Keep these committed if you want a ready-to-build repo; ignore if regenerating.
+# data/
+# config/config.json

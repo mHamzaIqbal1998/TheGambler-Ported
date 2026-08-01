@@ -1,0 +1,56 @@
+{
+  "parent": "rig",
+  "price_generate": true,
+  "rarities": [
+    "_boss",
+    "_late_wipe",
+    "_early_wipe",
+    "_scav"
+  ],
+  "rewards": [
+    [
+      "628baf0b967de16aab5a4f36",
+      "63611865ba5b90db0c0399d1"
+    ],
+    [
+      "5c0e6a1586f77404597b4965",
+      "5df8a42886f77412640e2e75",
+      "603648ff5a45383c122086ac",
+      "6040dd4ddcf9592f401632d2",
+      "592c2d1a86f7746dbe2af32a",
+      "5648a69d4bdc2ded0b8b457b",
+      "5c0e9f2c86f77432297fe0a3",
+      "5e9db13186f7742f845ee9d3"
+    ],
+    [
+      "5d5d85c586f774279a21cbdb",
+      "5ca20abf86f77418567a43f2",
+      "5648a69d4bdc2ded0b8b457b",
+      "5b44c8ea86f7742d1627baf1",
+      "603648ff5a45383c122086ac",
+      "6040dd4ddcf9592f401632d2",
+      "5c0e6a1586f77404597b4965",
+      "5f5f41f56760b4138443b352",
+      "5fd4c60f875c30179f5d04c2",
+      "60a6220e953894617404b00a",
+      "60a621c49c197e4e8c4455e6",
+      "5ab8dab586f77441cd04f2a2"
+    ],
+    [
+      "572b7adb24597762ae139821",
+      "5fd4c5477a8d854fa0105061",
+      "64be7095047e826eae02b0c1",
+      "5e4abc1f86f774069619fbaa",
+      "5d5d8ca986f7742798716522",
+      "64be7110bf597ba84a0a41ea",
+      "59e7643b86f7742cbf2c109a",
+      "6034d0230ca681766b6a0fb5",
+      "5929a2a086f7744f4b234d43",
+      "5e4abfed86f77406a2713cf7",
+      "6034cf5fffd42c541047f72e",
+      "5ab8dab586f77441cd04f2a2",
+      "60a621c49c197e4e8c4455e6",
+      "6040dd4ddcf9592f401632d2"
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>TheGambler</RootNamespace>
+    <AssemblyName>Hood-TheGambler</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <Version>1.0.0</Version>
+    <!-- Produces a single, clean mod folder: bin\Release\TheGambler\ -->
+    <OutputPath>bin\$(Configuration)\TheGambler\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <!-- We ship data files explicitly below -->
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+    <!-- Only compile the new C# sources, not the legacy TypeScript reference code -->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.Common" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.DI" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.Reflection" Version="4.0.13" />
+  </ItemGroup>
+
+  <!-- Compile only the C# mod sources under Mod/ -->
+  <ItemGroup>
+    <Compile Include="Mod\**\*.cs" />
+  </ItemGroup>
+
+  <!-- Ship the data files alongside the compiled mod -->
+  <ItemGroup>
+    <Content Include="data\**\*.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="config\config.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="db\base.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="res\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

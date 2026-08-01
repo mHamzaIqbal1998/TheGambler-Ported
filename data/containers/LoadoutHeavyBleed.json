@@ -1,0 +1,30 @@
+{
+  "parent": "loadout_heavy_bleed",
+  "rarities": [
+    "_rare",
+    "_uncommon",
+    "_common"
+  ],
+  "rewards": [
+    [
+      "5e8488fa988a8701445df1e4",
+      "5e8488fa988a8701445df1e4",
+      "5e8488fa988a8701445df1e4",
+      "5e8488fa988a8701445df1e4",
+      "60098af40accd37ef2175f27"
+    ],
+    [
+      "5e8488fa988a8701445df1e4",
+      "5e8488fa988a8701445df1e4",
+      "60098af40accd37ef2175f27",
+      "60098af40accd37ef2175f27",
+      "60098af40accd37ef2175f27",
+      "5e831507ea0a7c419c2f9bd9"
+    ],
+    [
+      "5e831507ea0a7c419c2f9bd9",
+      "5e831507ea0a7c419c2f9bd9",
+      "5e831507ea0a7c419c2f9bd9"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "stim",
+  "price_generate": true,
+  "rarities": [
+    "_extremely_rare",
+    "_rare",
+    "_uncommon",
+    "_common"
+  ],
+  "rewards": [
+    [
+      "5ed51652f6c34d2cc26336a1",
+      "637b60c3b7afa97bfc3d7001",
+      "5c0e534186f7747fa1419867"
+    ],
+    [
+      "637b612fb7afa97bfc3d7005",
+      "5c0e531d86f7747fa23f4d42",
+      "5ed5160a87bb8443d10680b5",
+      "5fca138c2a7b221b2852a5c6",
+      "637b620db7afa97bfc3d7009"
+    ],
+    [
+      "5c0e530286f7747fa1419862",
+      "5c0e533786f7747fa23f4d47",
+      "5ed515c8d380ab312177c0fa",
+      "637b6251104668754b72f8f9",
+      "637b6179104668754b72f8f5",
+      "5fca13ca637ee0341a484f46",
+      "5ed5166ad380ab312177c100"
+    ],
+    [
+      "544fb3f34bdc2d03748b456a",
+      "5ed515e03a40a50460332579",
+      "5c10c8fd86f7743d7d706df3",
+      "5c0e531286f7747fa54205c2",
+      "5ed515f6915ec335206e4152",
+      "5ed515ece452db0eb56fc028"
+    ]
+  ]
+}

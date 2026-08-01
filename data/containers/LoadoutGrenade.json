@@ -1,0 +1,53 @@
+{
+  "parent": "loadout_grenade",
+  "rarities": [
+    "_rare",
+    "_uncommon",
+    "_common"
+  ],
+  "stackable": [
+    false,
+    false,
+    false
+  ],
+  "rewards": [
+    [
+      "NaN",
+      "NaN",
+      "NaN",
+      "5e340dcdcb6d5863cc5e5efb",
+      "5e340dcdcb6d5863cc5e5efb",
+      "5e32f56fcb6d5863cc5e5ee4",
+      "5e32f56fcb6d5863cc5e5ee4",
+      "5710c24ad2720bc3458b45a3",
+      "5710c24ad2720bc3458b45a3",
+      "5710c24ad2720bc3458b45a3",
+      "58d3db5386f77426186285a0",
+      "617fd91e5539a84ec44ce155",
+      "618a431df1eb8e24b8741deb"
+    ],
+    [
+      "NaN",
+      "NaN",
+      "58d3db5386f77426186285a0",
+      "5710c24ad2720bc3458b45a3",
+      "5448be9a4bdc2dfd2f8b456a"
+    ],
+    [
+      "NaN",
+      "NaN",
+      "NaN",
+      "NaN",
+      "NaN",
+      "NaN",
+      "5710c24ad2720bc3458b45a3",
+      "5710c24ad2720bc3458b45a3",
+      "5448be9a4bdc2dfd2f8b456a",
+      "5448be9a4bdc2dfd2f8b456a",
+      "5448be9a4bdc2dfd2f8b456a",
+      "5a0c27731526d80618476ac4",
+      "5a0c27731526d80618476ac4",
+      "5a0c27731526d80618476ac4"
+    ]
+  ]
+}
