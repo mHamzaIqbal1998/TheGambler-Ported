@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <!-- Produces a single, clean mod folder: bin\Release\TheGambler\ -->
     <OutputPath>bin\$(Configuration)\TheGambler\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>

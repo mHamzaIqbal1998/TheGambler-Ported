@@ -124,7 +124,8 @@ public class MysteryContainerLogic
         {
             c.IsAmmo = true;
             c.Stackable = reward.Stackable ?? Fill(reward.Rarities.Count, true);
-            c.RewardAmount = reward.RewardAmount ?? Fill0(reward.Rarities.Count);
+            // GetRandomAmount instead of using a zero amount.
+            c.RewardAmount = reward.RewardAmount ?? new List<double>();
         }
         else
         {
@@ -137,7 +138,6 @@ public class MysteryContainerLogic
 
     private static List<bool> Fill(int n, bool v) => Enumerable.Repeat(v, n).ToList();
     private static List<double> Fill1(int n) => Enumerable.Repeat(1.0, n).ToList();
-    private static List<double> Fill0(int n) => Enumerable.Repeat(0.0, n).ToList();
 
     // ----- accessors used by GambleService (mirror MysteryContainer.ts getters) -----
 

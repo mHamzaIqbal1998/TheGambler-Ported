@@ -140,7 +140,10 @@ internal class GambleRun(
                 {
                     id = logic.GetReward(name, i);
                     _currentId = id;
-                    rewardAmount ??= container.RewardAmount[i];
+                    if (i < container.RewardAmount.Count)
+                    {
+                        rewardAmount ??= container.RewardAmount[i];
+                    }
                     if (!stackable)
                     {
                         stackable = container.Stackable[i];
